@@ -1,6 +1,6 @@
 import axios from "axios";
 const service = axios.create({
-  baseURL: "https://httpbin.org/",
+  baseURL: "http://152.136.185.210:5000",
   timeout: 5000,
 });
 
